@@ -5,7 +5,7 @@ st.subheader("Données de 2012 à 2023")
 
 import pandas as pd
 
-path_to_pickles = '../data//Pickles'
+path_to_pickles = '../data/Pickles'
 directory = path_to_pickles
 
 df_data_nationales = pd.read_pickle(directory + '/df_data_nationales.pkl')
