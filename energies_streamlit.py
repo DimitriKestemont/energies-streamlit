@@ -40,10 +40,11 @@ fig.update_layout(hovermode="x")
 fig.update_layout(title_font_lineposition="under")
 fig.update_layout(title_font_color="gray")
 fig.update_layout(title_font_family="monospace")
+
 st.subheader("La complémentarité par mois")
 st.write(fig)
 
-st.subheader("Les données par ans")
+st.badge("Les données par ans")
 st.write(df_complementaire_year)
 
 period = df_complementaire_year.index
@@ -65,7 +66,8 @@ fig.update_layout(hovermode="x unified")
 fig.update_layout(title_font_lineposition="under")
 fig.update_layout(title_font_color="gray")
 fig.update_layout(title_font_family="monospace")
-st.badge("La complémentarité par ans")
+
+st.subheader("La complémentarité par ans")
 st.write(fig)
 
 st.write("Did you like this dashboard?")
